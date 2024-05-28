@@ -1,6 +1,6 @@
 # OTPPayloadInjector
 
-**OTPPayloadInjector** is a tool designed to encrypt shellcode payloads using a one-time pad and dynamically inject them into a C program during runtime for execution, aiming to bypass Windows Defender.
+**OTPPayloadInjector** is a tool designed to encrypt shellcode payloads using a one-time pad and dynamically inject them into a C program during runtime for execution, aiming to bypass Windows Defender. The original payload will be split up in 2 parts one being hardcoded into the executeable and the other one being written to a .bin file which is getting read by the executeable during runtime.
 
 ## Features
 
