@@ -1,7 +1,7 @@
 import random
 import subprocess
 
-OUTPUT_FILE_NAME = "test"
+OUTPUT_FILE_NAME = "exploit"
 KEY_FILE = "keyfile.bin"
 
 
